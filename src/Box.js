@@ -11,7 +11,7 @@ const Box = ({ backgroundColor, width, height, remove, id }) => {
           backgroundColor
         }}
       />
-      <button onClick={handleRemove}>Remove The Box!</button>
+      <button onClick={handleRemove}>X</button>
     </div>
   );
 }
